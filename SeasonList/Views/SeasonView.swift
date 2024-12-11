@@ -9,24 +9,34 @@ import SwiftUI
 
 struct SeasonView: View {
     
-    let seasonViewList: Seasons
+    let seasonToShow: Season
     
     var body: some View {
-        VStack{
-            HStack{
-                Text(
-                    seasonViewList.icon
-                )
-                Text(
-                    seasonViewList.season
-                )
+        HStack{
+            VStack{
+                Image(systemName: seasonToShow.icon)
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .padding(.horizontal, 4)
+                    .padding(.vertical)
+                Spacer()
                 
-                Text(
-                    seasonViewList.description
-                )
                 
             }
-            Spacer()
+            VStack(alignment: .leading) {
+                Text(seasonToShow.season)
+                    .font(.system(size: 30))
+                   
+               
+                
+                Text(seasonToShow.description)
+                    .font(.system(size: 20))
+                
+                
+                
+
+                
+            }
             
             
             
@@ -36,5 +46,5 @@ struct SeasonView: View {
 }
 
 #Preview {
-    SeasonView(seasonViewList: summer)
+    SeasonView(seasonToShow: summer)
 }

@@ -11,8 +11,14 @@ struct SeasonsListView: View {
     var body: some View {
         NavigationStack{
             List{
-               
+                
+                
+                SeasonView(seasonToShow: summer)
+                SeasonView(seasonToShow: winter)
+                SeasonView(seasonToShow: spring)
+                SeasonView(seasonToShow: fall)
             }
+            .navigationTitle("The Seasons:")
         }
     }
 }
