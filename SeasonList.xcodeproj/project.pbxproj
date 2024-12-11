@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		70EF0BF92D09F2720000A09D /* SeasonListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0BF82D09F2720000A09D /* SeasonListApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		70EF0BBE2D08F4C20000A09D /* SeasonList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EF0BF82D09F2720000A09D /* SeasonListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonListApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		70EF0BB52D08F4C20000A09D = {
 			isa = PBXGroup;
 			children = (
+				70EF0BF82D09F2720000A09D /* SeasonListApp.swift */,
 				70EF0BC02D08F4C20000A09D /* SeasonList */,
 				70EF0BBF2D08F4C20000A09D /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EF0BF92D09F2720000A09D /* SeasonListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

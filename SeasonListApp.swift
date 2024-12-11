@@ -2,7 +2,7 @@
 //  SeasonListApp.swift
 //  SeasonList
 //
-//  Created by Connor Engel on 2024-12-10.
+//  Created by Connor Engel on 2024-12-11.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct SeasonListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SeasonsListView()
         }
     }
 }
